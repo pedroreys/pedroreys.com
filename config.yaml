@@ -1,4 +1,5 @@
-baseURL: https://pedroreys.com/blog
+baseURL: https://pedroreys.com/
 disablePathToLower: true
 languageCode: en-us
-title: My New Hugo Site
+title: Pedro Reys
+theme: tale

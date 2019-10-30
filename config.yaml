@@ -1,0 +1,4 @@
+baseURL: https://pedroreys.com/blog
+disablePathToLower: true
+languageCode: en-us
+title: My New Hugo Site

@@ -1,5 +1,16 @@
 baseURL: https://pedroreys.com/
 disablePathToLower: true
 languageCode: en-us
+
 title: Pedro Reys
 theme: tale
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+pygmentOptions: "lineos=table"
+
+params:
+    AuthorName: Pedro Reys
+    GitHubUser: pedroreys
+    css: ["css/dracula_highlight.css"]
+
+

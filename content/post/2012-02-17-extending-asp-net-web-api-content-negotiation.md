@@ -1,4 +1,20 @@
-The ASP.NET team released the beta version of the [ASP.NET Web API](http://www.asp.net/web-api), previously known as WCF Web API, as part of the [beta release of ASP.NET MVC 4](http://www.asp.net/vnext/overview/downloads). Having experience implementing web APIs with [Restfulie](http://restfulie.caelum.com.br/), I was curious and decided to check how the ASP.NET Web API works to compare it with Restfulie.
+---
+title: 'Extending ASP.NET Web API  Content Negotiation'
+author: Pedro
+type: post
+date: 2012-02-17T14:00:00+00:00
+url: "2012/02/17/extending-asp-net-web-api-content-negotiation"
+dsq_thread_id:
+  - 579759610
+categories:
+  - .Net
+tags:
+  - ASP.NET Web API
+  - conneg
+  - rest
+
+---
+The ASP.NET team released the beta version of the [ASP.NET Web API][1], previously known as WCF Web API, as part of the [beta release of ASP.NET MVC 4][2]. Having experience implementing web APIs with [Restfulie][3], I was curious and decided to check how the ASP.NET Web API works to compare it with Restfulie.
 
 The first thing I noticed was a difference in the Content Negotiation implementation. I don’t intend to do a full comparison here, but to describe how to use one of the extension points in the Web API to add the behavior that I wanted.
 
@@ -8,11 +24,11 @@ If you are not interested in in the reasons why the Content Negotiation implemen
 
 Content Negotiation, simply put, is the process of figuring out what is the media-type that needs to be used in the Resource Representation that is going to be returned in a HTTP Response. This negotiation between client and server happens through the interpretation of the HTTP Accept Header values.
 
-When a client makes a request, if the client wants to specify a set of media-types that it accepts the resource to be formatted into, then these media types should be included in the Accept Header. All the semantics and options regarding the usage of the Accept header can be found on [section 14.1](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) of [RFC 2616](http://www.w3.org/Protocols/rfc2616/rfc2616.html) (HTTP specification). In the Accept Header definition there is a part that reads:
+When a client makes a request, if the client wants to specify a set of media-types that it accepts the resource to be formatted into, then these media types should be included in the Accept Header. All the semantics and options regarding the usage of the Accept header can be found on [section 14.1][4] of [RFC 2616][5] (HTTP specification). In the Accept Header definition there is a part that reads:
 
 > If no Accept header field is present, then it is assumed that the client accepts all media types. If an Accept header field is present, and if the server cannot send a response which is acceptable according to the combined Accept field value, then the server SHOULD send a 406 (not acceptable) response.
 
-The SHOULD key word in the RFC 2616, according to [section 1.2](http://www.w3.org/Protocols/rfc2616/rfc2616-sec1.html#sec1.2) of the RFC, is to be interpreted as described in the [RFC 2119](http://www.ietf.org/rfc/rfc2119.txt). The description of SHOULD in this RFC is:
+The SHOULD key word in the RFC 2616, according to [section 1.2][6] of the RFC, is to be interpreted as described in the [RFC 2119][7]. The description of SHOULD in this RFC is:
 
 > SHOULD   This word, or the adjective &#8220;RECOMMENDED&#8221;, mean that there may exist valid reasons in particular circumstances to ignore a particular item, but the full implications must be understood and carefully weighed before choosing a different course.
 
@@ -54,7 +70,7 @@ While I was playing with the Web API, I decided to test the behavior of the Cont
 ["value1","value2"]* Closing connection #0</code></pre>
 </noscript>
 
-This was a surprise to me, so I filled a bug report for this in the Web API Forum. [Henrik Frystyk Nielsen](http://en.wikipedia.org/wiki/Henrik_Frystyk_Nielsen) replied saying:
+This was a surprise to me, so I filled a bug report for this in the Web API Forum. [Henrik Frystyk Nielsen][8] replied saying:
 
 > It&#8217;s a reasonable to respond either with a 200 or with a 406 status code in this case. At the moment we err on the side of responding with a 2xx but I completely agree that there are sceanarios where 406 makes a lot of sense. Ultimately we need some kind of switch for making it possible to respond with 406 but it&#8217;s not there yet.
 
@@ -62,7 +78,7 @@ Fine. The 406 response is not mandatory, the Web API is still in beta. I underst
 
 ## Message Handlers to the Rescue
 
-When a HTTP Request is made to a Web API application, that request is passed  to an instance of the HttpServer class. This class derives from HttpMessageHandler and it will delegate the processing of the HTTP request to the next handler present in the HttpConfiguration.MessageHandlers collection. All handlers in the collection will be called to process the request, the last one being the HttpControllerDispatcher that, as you can tell, will dispatch the call to an Action in a Controller. [FubuMVC](http://mvc.fubu-project.org/) [Behavior Chains](http://codebetter.com/jeremymiller/2011/01/09/fubumvcs-internal-runtime-the-russian-doll-model-and-how-it-compares-to-asp-net-mvc-and-openrasta/) implements an approach similar to this. (Fubu guys, I know it’s not the same thing, but y’all get my point :))
+When a HTTP Request is made to a Web API application, that request is passed  to an instance of the HttpServer class. This class derives from HttpMessageHandler and it will delegate the processing of the HTTP request to the next handler present in the HttpConfiguration.MessageHandlers collection. All handlers in the collection will be called to process the request, the last one being the HttpControllerDispatcher that, as you can tell, will dispatch the call to an Action in a Controller. [FubuMVC][9] [Behavior Chains][10] implements an approach similar to this. (Fubu guys, I know it’s not the same thing, but y’all get my point :))
 
 With that said, in order to return a response with 406 status code, what I need to do is implement a HttpMessageHandler that does that.
 
@@ -140,3 +156,14 @@ With the application configured to use the custom handler, when that same reques
 ## The power of Russian Dolls
 
 The Web API HTTP Request pipeline provides a powerful extension point to introduce specialized, SRP adherent, handlers keeping the controller action implementation simple and focused.
+
+ [1]: http://www.asp.net/web-api
+ [2]: http://www.asp.net/vnext/overview/downloads
+ [3]: http://restfulie.caelum.com.br/
+ [4]: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html
+ [5]: http://www.w3.org/Protocols/rfc2616/rfc2616.html
+ [6]: http://www.w3.org/Protocols/rfc2616/rfc2616-sec1.html#sec1.2
+ [7]: http://www.ietf.org/rfc/rfc2119.txt
+ [8]: http://en.wikipedia.org/wiki/Henrik_Frystyk_Nielsen
+ [9]: http://mvc.fubu-project.org/
+ [10]: http://codebetter.com/jeremymiller/2011/01/09/fubumvcs-internal-runtime-the-russian-doll-model-and-how-it-compares-to-asp-net-mvc-and-openrasta/

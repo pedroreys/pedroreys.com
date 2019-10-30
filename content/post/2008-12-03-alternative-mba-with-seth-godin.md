@@ -1,3 +1,20 @@
+---
+title: Alternative MBA with Seth Godin
+type: post
+date: 2008-12-03T20:24:23+00:00
+url: "2008/12/03/alternative-mba-with-seth-godin"
+dsq_thread_id:
+  - 395135104
+categories:
+  - Recomendations
+tags:
+  - career
+  - coach
+  - internship
+  - marketing
+  - opportunity
+
+---
 Look this trade-off: Instead of getting a MBA, spend 6 months at the office of one of the greatest marketing authors and blogger.
 
 That&#8217;s what <a href="http://sethgodin.typepad.com/" target="_blank">Seth Godin</a> is <a href="http://www.squidoo.com/Alternative-MBA" target="_blank">offering</a>. Quoting him, what he offers is:

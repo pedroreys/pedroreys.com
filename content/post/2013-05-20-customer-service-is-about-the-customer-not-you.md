@@ -12,7 +12,7 @@ categories:
 ---
 <span style="line-height: 1.6;">As many of you, last night I was laying on my couch watching the latest Mad Men episode when suddenly it happened again, in the last 10 minutes of the show my TV screen goes blank. Same thing that happened last week. I&#8217;ve missed again the end of the episode. I was really pissed. So I did what everybody in the same situation would do, went to vent on twitter.</span>
 
-[<img class="alignnone size-medium wp-image-144" alt="timewarner_1" src="https://pedroreys.com/blog/wp-content/uploads/2013/05/timewarner_11-300x164.png" width="300" height="164" srcset="https://pedroreys.com/blog/wp-content/uploads/2013/05/timewarner_11-300x164.png 300w, https://pedroreys.com/blog/wp-content/uploads/2013/05/timewarner_11.png 452w" sizes="(max-width: 300px) 100vw, 300px" />][1]
+[<img class="alignnone size-medium wp-image-144" alt="timewarner_1" src="wp-content/uploads/2013/05/timewarner_11-300x164.png" width="300" height="164" srcset="wp-content/uploads/2013/05/timewarner_11-300x164.png 300w, wp-content/uploads/2013/05/timewarner_11.png 452w" sizes="(max-width: 300px) 100vw, 300px" />][1]
 
 As I expected, I got the usual &#8220;we are really sorry bla bla bla. Please DM info so we can contact you.&#8221; response back. Meanwhile, I was curious and checked Time Warner&#8217;s mentions, as I didn&#8217;t believe this was an isolated issue. And I was right:
 
@@ -84,7 +84,7 @@ Yes, they apologized  as if the mistake was theirs. If you think Customer Servi
 
 Google Fiber can&#8217;t come soon enough.
 
- [1]: https://pedroreys.com/blog/wp-content/uploads/2013/05/timewarner_11.png
+ [1]: https://pedroreys.com/wp-content/uploads/2013/05/timewarner_11.png
  [2]: https://pedroreys.com/blog/wp-content/uploads/2013/05/timewarner_2.png
  [3]: https://pedroreys.com/blog/wp-content/uploads/2013/05/timewarner_3.png
  [4]: https://pedroreys.com/blog/wp-content/uploads/2013/05/timewarner_4.png

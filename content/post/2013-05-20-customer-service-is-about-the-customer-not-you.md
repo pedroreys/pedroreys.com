@@ -12,21 +12,18 @@ categories:
 ---
 <span style="line-height: 1.6;">As many of you, last night I was laying on my couch watching the latest Mad Men episode when suddenly it happened again, in the last 10 minutes of the show my TV screen goes blank. Same thing that happened last week. I've missed again the end of the episode. I was really pissed. So I did what everybody in the same situation would do, went to vent on twitter.</span>
 
-<img class="alignnone size-medium" alt="timewarner_1" src="wp-content/uploads/2013/05/timewarner_1.png">
+![](/wp-content/uploads/2013/05/timewarner_11.png)
 
 As I expected, I got the usual "we are really sorry bla bla bla. Please DM info so we can contact you." response back. Meanwhile, I was curious and checked Time Warner's mentions, as I didn't believe this was an isolated issue. And I was right:
 
-<img class="alignnone size-medium " alt="timewarner_2" src="wp-content/uploads/2013/05/timewarner_2.png" width="300" height="202" />
-
-<img class="alignnone size-medium" alt="timewarner_3" src="wp-content/uploads/2013/05/timewarner_3.png" />
-
-<img class="alignnone size-medium" alt="timewarner_4" src="wp-content/uploads/2013/05/timewarner_4.png" />
-
-<img class="alignnone size-medium" alt="timewarner_6" src="wp-content/uploads/2013/05/timewarner_6.png" />
+![](/wp-content/uploads/2013/05/timewarner_2.png)
+![](/wp-content/uploads/2013/05/timewarner_3.png)
+![](/wp-content/uploads/2013/05/timewarner_4.png)
+![](/wp-content/uploads/2013/05/timewarner_6.png)
 
 And my favorite:
 
-<img class="alignnone size-medium" alt="timewarner_5" src="wp-content/uploads/2013/05/timewarner_5.png" />
+![](/wp-content/uploads/2013/05/timewarner_5.png)
 
 This is clearly not an isolated issue. And it doesn't take much to realize that there is a high incidence of users from Austin complaining. Is it because people here in Austin like to complain more on twitter (a totally valid hypothesis), or is it because it's an issue in the area? If I was the one diagnosing the issue, I would try the latter first.
 
@@ -34,9 +31,9 @@ This is clearly not an isolated issue. And it doesn't take much to realize that 
 
 Fast forward to the next morning, I am driving to work when my phone rings. It's a Time Warner Customer Service representative. She goes on "I'm sorry bla bla bla" then she asked me if the problem ocurred with this channel only to which my answer was: "I don't know. I know I was watching AMC and this happened". That's when things derailed: "As everything seems to be working now, sir, there is nothing we can do. What I would recommend is that the next time this happens you call Tech Support instead of using Social Media, so we can try to help you.". And when I say things derailed it is not because Time Warner is still in 2007 and doesn't consider Twitter a proper medium for support requests. I say it derailed because that's when Time Warner started putting on me, their customer, the responsibility of diagnosing their own problems. And, to be fair with that representative, the folks behind TW's twitter account did the same:
 
-<img class="alignnone size-medium" alt="timewarner_7" src="wp-content/uploads/2013/05/timewarner_7" />
-<img class="alignnone size-medium" alt="timewarner_8" src="wp-content/uploads/2013/05/timewarner_8" />
-<img class="alignnone size-medium" alt="timewarner_9" src="wp-content/uploads/2013/05/timewarner_9" />
+![](/wp-content/uploads/2013/05/timewarner_7.png)
+![](/wp-content/uploads/2013/05/timewarner_8.png)
+![](/wp-content/uploads/2013/05/timewarner_9.png)
 
 Time Warner can't track their customers issues. They don't have the tools to detect or diagnose problems in their own network. Their first reaction is to pull a 1998 tech support script and ask the user to reboot some equipment in the hope that it will fix their issue. This is putting the burden on your customer to solve your problem. Diagnosing what went wrong is your job, not your customers' job. Heck, your customer shouldn't even need to tell you that something went wrong, you should be able to detect it even when there is no complaint. It's 2013 already, for Christ's sake.
 
@@ -82,7 +79,7 @@ Throughout the entire  process I would be feeling like Time Warner cared about 
 
 It's sad to say but I'm skeptical that Time Warner can change how they handle customer service. Unless you put the customer first since the beginning, this is something that is really hard to change decades down the road. And, to be fair, Time Warner is not alone at sucking at Customer Service. This is a common thing among Telecom companies. Check the reply I got back from AT&T after I mentioned them on my original tweet.
 
-<img class="alignnone size-medium" alt="att_is_bad_too" src="wp-content/uploads/2013/05/att_is_bad_too.png" /> 
+![](/wp-content/uploads/2013/05/att_is_bad_too.png)
 
 Yes, they apologized  as if the mistake was theirs. If you think Customer Service reps don't listen to you on the phone, they don't even read a 140 character message. The only way I see us out of this mess is if a new disruptive player gets into this market.
 

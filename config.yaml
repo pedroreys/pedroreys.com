@@ -8,6 +8,7 @@ pygmentsCodeFences: true
 pygmentsUseClasses: true
 pygmentsOptions: "linenos=table,linenostart=1"
 disqusShortname: pedroreys
+googleAnalytics: UA-1861436-2
 
 params:
     AuthorName: Pedro Reys

@@ -6,7 +6,8 @@ title: Pedro Reys
 theme: tale
 pygmentsCodeFences: true
 pygmentsUseClasses: true
-pygmentOptions: "lineos=table"
+pygmentsOptions: "linenos=table,linenostart=1"
+disqusShortname: pedroreys
 
 params:
     AuthorName: Pedro Reys

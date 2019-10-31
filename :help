@@ -101,6 +101,7 @@ public void Should_map_People_index_json_url_to_people_matching_index_action()
 
 As expected, the former test passes, but the latter, the one that tests the new behavior we want to test don’t. And more important, it fails as we expected it to fail.
 
+
 <img style="display: block; float: none; margin-left: auto; margin-right: auto" border="0" alt="Rails_MVC_2" src="https://static.flickr.com/4003/4335338096_9f9e265960.jpg" /></p> 
 
 In order to make it work, we need to add a new route to our Route Dictionary.
@@ -146,7 +147,7 @@ public void Should_extract_format_information_from_RouteData()
 ```
 
 
-As the `RailsWannabeController` will be a abstract class, a `<strike>MockController</strike> StubController` concrete class has to be created. This class will derive from `RailsWannabeController` and will have a public method to enable the `OnActionExecuting` method to be called. It also will have a `RequestedFormat` property to expose the value of the requested format extracted from the `RouteData`.
+As the `RailsWannabeController` will be a abstract class, a~~`MockController`~~`StubController` concrete class has to be created. This class will derive from `RailsWannabeController` and will have a public method to enable the `OnActionExecuting` method to be called. It also will have a `RequestedFormat` property to expose the value of the requested format extracted from the `RouteData`.
 
 ```csharp
 public class StubController : RailsWannabeController

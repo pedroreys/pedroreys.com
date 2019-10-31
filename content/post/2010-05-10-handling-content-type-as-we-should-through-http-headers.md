@@ -252,7 +252,7 @@ The web page is still being rendered as expected. Fine.
 
 
 
-[<img style="display: block; float: none; margin-left: auto; margin-right: auto" border="0" alt="html" src="http://farm5.static.flickr.com/4043/4594093858_af5b693db0.jpg" />][2]
+[<img style="display: block; float: none; margin-left: auto; margin-right: auto" border="0" alt="html" src="https://farm5.static.flickr.com/4043/4594093858_af5b693db0.jpg" />][2]
 
 
 
@@ -260,7 +260,7 @@ But now, let's see what responses do I get when I change the Http Header to “`
 
 
 
-[<img style="border-bottom: 0px; border-left: 0px; display: block; float: none; margin-left: auto; border-top: 0px; margin-right: auto; border-right: 0px" border="0" alt="json" src="http://farm5.static.flickr.com/4061/4594220022_321ba545c1.jpg" />][3]
+[<img style="border-bottom: 0px; border-left: 0px; display: block; float: none; margin-left: auto; border-top: 0px; margin-right: auto; border-right: 0px" border="0" alt="json" src="https://farm5.static.flickr.com/4061/4594220022_321ba545c1.jpg" />][3]
 
 
 
@@ -268,7 +268,7 @@ Yeah, a Json result. Cool. What about “`text/xml`”:
 
 
 
-[<img style="display: block; float: none; margin-left: auto; margin-right: auto" border="0" alt="xml" src="http://farm4.static.flickr.com/3391/4593603183_2b80e4c978.jpg" />][4]
+[<img style="display: block; float: none; margin-left: auto; margin-right: auto" border="0" alt="xml" src="https://farm4.static.flickr.com/3391/4593603183_2b80e4c978.jpg" />][4]
 
 
 
@@ -276,14 +276,14 @@ Yeap, that works too. Finally, let's see if the 406 status code is returned when
 
 
 
-[<img style="display: block; float: none; margin-left: auto; margin-right: auto" border="0" alt="406" src="http://farm2.static.flickr.com/1136/4594219796_7606432360.jpg" />][5]</p> 
+[<img style="display: block; float: none; margin-left: auto; margin-right: auto" border="0" alt="406" src="https://farm2.static.flickr.com/1136/4594219796_7606432360.jpg" />][5]</p> 
 
 
 
 So, with not so much code the Client Controller now is able to format its result based on the Content Type requested on the HTTP Header, as it should have been before. Off course this is a spike and the code can be improved. Feel free to grab it from <a href="http://github.com/pedroreys/BlogPosts" target="_blank">github</a> and improve it.
 
- [1]: http://twitter.com/pedroreys
- [2]: http://www.flickr.com/photos/22313104@N04/4594093858/ "html"
- [3]: http://www.flickr.com/photos/22313104@N04/4594220022/ "json"
- [4]: http://www.flickr.com/photos/22313104@N04/4593603183/ "xml"
- [5]: http://www.flickr.com/photos/22313104@N04/4594219796/ "406"
+ [1]: https://twitter.com/pedroreys
+ [2]: https://www.flickr.com/photos/22313104@N04/4594093858/ "html"
+ [3]: https://www.flickr.com/photos/22313104@N04/4594220022/ "json"
+ [4]: https://www.flickr.com/photos/22313104@N04/4593603183/ "xml"
+ [5]: https://www.flickr.com/photos/22313104@N04/4594219796/ "406"

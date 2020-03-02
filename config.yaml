@@ -6,13 +6,14 @@ title: Pedro Reys
 theme: tale
 pygmentsCodeFences: true
 pygmentsUseClasses: true
-pygmentsOptions: "linenos=table,linenostart=1"
+#pygmentsOptions: "linenos=table,linenostart=1"
 disqusShortname: pedroreys
 googleAnalytics: UA-1861436-2
 
 params:
     AuthorName: Pedro Reys
     GitHubUser: pedroreys
-    css: ["css/dracula_highlight.css"]
+    css: ["css/vice_highlight.css"]
+    #css: ["css/static.css"]
 
 

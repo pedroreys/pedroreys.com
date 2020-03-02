@@ -12,7 +12,7 @@ tags:
 
 My current project is a data sciency project in python which means I've been using [IPython](https://ipython.org/) and [Jupyter](https://jupyter.org/) a lot.
 
-For a while now, my go to and favorite colorscheme/theme for coding is [vim-vice](https://github.com/bcicen/vim-vice). As I was working in this python project, I found out that IPython uses [pygments](https://pygments.org/) for styling and syntax-highlighting. After looking for a pygments port of vim-vice and not founding one I decided to do the port myself.
+For a while now, my go to and favorite colorscheme/theme for coding is [vim-vice](https://github.com/bcicen/vim-vice). As I was working in this python project, I found out that IPython uses [pygments](https://pygments.org/) for styling and syntax-highlighting. After looking for a pygments port of vim-vice and not founding one I decided to do the port myself: [pygments-vice](https://github.com/pedroreys/pygments-vice)
 
 ![screencap][screencap]
 

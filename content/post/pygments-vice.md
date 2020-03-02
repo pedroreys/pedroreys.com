@@ -1,7 +1,7 @@
 ---
 title: "Vice - A dark and colorful pygments style"
 date: 2019-03-26T08:47:11+01:00
-draft: true
+draft: false
 ---
 
 My current project is a data sciency project in python which means I've been using [IPython](https://ipython.org/) and [Jupyter](https://jupyter.org/) a lot.

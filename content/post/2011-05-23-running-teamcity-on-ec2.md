@@ -3,7 +3,8 @@ title: Running TeamCity on EC2
 author: Pedro
 type: post
 date: 2011-05-23T17:19:07+00:00
-url: "2011/05/23/running-teamcity-on-ec2"
+aliases:
+  - /2011/05/23/running-teamcity-on-ec2
 dsq_thread_id:
   - 395135192
 categories:

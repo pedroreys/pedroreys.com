@@ -2,7 +2,8 @@
 title: Alternative MBA with Seth Godin
 type: post
 date: 2008-12-03T20:24:23+00:00
-url: "2008/12/03/alternative-mba-with-seth-godin"
+aliases:
+  - /2008/12/03/alternative-mba-with-seth-godin
 dsq_thread_id:
   - 395135104
 categories:

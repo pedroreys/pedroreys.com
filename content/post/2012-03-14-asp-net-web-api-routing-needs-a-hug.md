@@ -3,7 +3,8 @@ title: ASP.NET Web API Routing needs a hug
 author: Pedro
 type: post
 date: 2012-03-14T04:12:50+00:00
-url: "2012/03/14/asp-net-web-api-routing-needs-a-hug"
+aliases:
+  - /2012/03/14/asp-net-web-api-routing-needs-a-hug/
 dsq_thread_id:
   - 610313192
 categories:

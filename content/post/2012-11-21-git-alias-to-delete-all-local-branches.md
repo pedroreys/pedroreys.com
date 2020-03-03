@@ -3,7 +3,9 @@ title: Git alias to delete all local branches
 author: Pedro
 type: post
 date: 2012-11-21T18:11:34+00:00
-url: "2012/11/21/git-alias-to-delete-all-local-branches"
+aliases: 
+  - /2012/11/21/git-alias-to-delete-all-local-branches/
+
 dsq_thread_id:
   - 938075566
 categories:

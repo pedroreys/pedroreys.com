@@ -3,7 +3,8 @@ title: 'Extending ASP.NET Web API  Content Negotiation'
 author: Pedro
 type: post
 date: 2012-02-17T14:00:00+00:00
-url: "2012/02/17/extending-asp-net-web-api-content-negotiation"
+aliases: 
+  - /2012/02/17/extending-asp-net-web-api-content-negotiation
 dsq_thread_id:
   - 579759610
 categories:

@@ -3,7 +3,8 @@ title: HotFix for Checkdisk hanging at 1 sec
 author: Pedro
 type: post
 date: 2010-07-30T03:22:07+00:00
-url: "2010/07/30/hotfix-for-checkdisk-hanging-at-1-sec"
+aliases:
+  - /2010/07/30/hotfix-for-checkdisk-hanging-at-1-sec
 dsq_thread_id:
   - 417083811
 categories:

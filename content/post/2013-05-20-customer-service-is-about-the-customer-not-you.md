@@ -3,7 +3,9 @@ title: Customer Service is about the customer, not you
 author: Pedro
 type: post
 date: 2013-05-20T21:44:36+00:00
-url: "2013/05/20/customer-service-is-about-the-customer-not-you"
+aliases: 
+  - /2013/05/20/customer-service-is-about-the-customer-not-you/
+
 dsq_thread_id:
   - 1302424633
 categories:

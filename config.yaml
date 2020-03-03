@@ -8,8 +8,26 @@ pygmentsCodeFences: true
 pygmentsUseClasses: true
 disqusShortname: pedroreys
 googleAnalytics: UA-1861436-2
+metaDataFormat: "yaml"
+enableGitInfo: true
+
+permalinks:
+  posts: /:year/:month/:slug/
 
 params:
     AuthorName: Pedro Reys
     GitHubUser: pedroreys
     css: ["css/vice_highlight.css"]
+
+frontmatter:
+  date: 
+    - :filename
+    - :default
+
+  publishDate:    
+    - :publishDate
+    - :date
+    - :default
+
+
+

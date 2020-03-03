@@ -3,7 +3,8 @@ title: Handling Content Type as we should, through HTTP Headers
 author: Pedro
 type: post
 date: 2010-05-10T02:08:15+00:00
-url: "2010/05/10/handling-content-type-as-we-should-through-http-headers"
+aliases:
+  - /2010/05/10/handling-content-type-as-we-should-through-http-headers
 dsq_thread_id:
   - 395135146
 categories:

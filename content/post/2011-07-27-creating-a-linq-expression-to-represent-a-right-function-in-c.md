@@ -5,7 +5,8 @@ type: post
 date: 2011-07-27T00:57:20+00:00
 draft: true
 private: true
-url: "2011/07/27/creating-a-linq-expression-to-represent-a-right-function-in-c"
+aliases:
+ - /2011/07/27/creating-a-linq-expression-to-represent-a-right-function-in-c
 categories:
   - .Net
 

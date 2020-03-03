@@ -4,7 +4,8 @@ author: Pedro
 type: post
 date: 2011-09-21T17:23:37+00:00
 draft: true
-url: "2011/09/21/hgIgnore-on-windows"
+aliases:
+  - /2011/09/21/hgIgnore-on-windows
 categories:
   - Tips
 tags:

@@ -3,7 +3,8 @@ title: Installing Less.css on OSX Lion
 author: Pedro
 type: post
 date: 2012-02-03T02:42:50+00:00
-url: "2012/02/03/installing-less-css-on-osx-lion"
+aliases:
+  - /2012/02/03/installing-less-css-on-osx-lion
 dsq_thread_id:
   - 562451972
 categories:

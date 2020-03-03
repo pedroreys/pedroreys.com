@@ -1,10 +1,8 @@
 ---
 title: "Vice - A dark and colorful pygments style"
-date: 2020-03-02T08:47:11+01:00
 author: Pedro
 type: post
-url: "pygments-vice"
-draft: false
+date: 2020-03-02T08:47:11+01:00
 
 tags:
   - python

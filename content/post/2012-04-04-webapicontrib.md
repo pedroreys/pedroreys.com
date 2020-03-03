@@ -3,7 +3,9 @@ title: WebApiContrib
 author: Pedro
 type: post
 date: 2012-04-04T18:35:29+00:00
-url: "2012/04/04/webapicontrib"
+aliases:
+  - /2012/04/04/webapicontrib/
+
 dsq_thread_id:
   - 636665780
 categories:

@@ -3,7 +3,8 @@ title: Mimicking Rails formatter behavior in ASP.NET MVC
 author: Pedro
 type: post
 date: 2010-02-07T18:53:08+00:00
-url: "2010/02/07/mimicking-rails-formatter-behavior-in-asp-net-mvc"
+aliases:
+  - /2010/02/07/mimicking-rails-formatter-behavior-in-asp-net-mvc
 dsq_thread_id:
   - 395135132
 categories:
